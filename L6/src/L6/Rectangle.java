@@ -29,9 +29,5 @@ public abstract class Rectangle extends Shape{
 		}
 	}
 	public void printInfo(){
-		System.out.println("width : "+width);
-		System.out.println("height : "+height);
-		System.out.println("area : "+calculateArea());
-		System.out.println("perimeter : "+calculatePerimeter());
 	}
 }
