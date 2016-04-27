@@ -25,6 +25,8 @@ public class Circle extends Shape {
 		}
 		
 		public void printInfo(){
-			
+			System.out.println("Radius : "+radius);
+			System.out.println("Area : "+calculateArea());
+			System.out.println("Perimeter : "+calculatePerimeter());
 		}
 }

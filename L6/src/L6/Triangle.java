@@ -47,7 +47,11 @@ public class Triangle extends Shape{
 	}
 	
 	public void printInfo(){
-	
+		System.out.println("Side1 : "+side1);
+		System.out.println("Side2 : "+side2);
+		System.out.println("Side3 : "+side3);
+		System.out.println("Area : "+calculateArea());
+		System.out.println("Perimeter : "+calculatePerimeter());
 	}
 	
 }
