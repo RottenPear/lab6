@@ -1,19 +1,17 @@
 package L6;
 
-public abstract class Rectangle extends Shape{
-	private double width;
-	private double height;
+public class Rectangle extends Shape{
+	double width;
+	double height;
+	public Rectangle(double a,double b){
+		width=a;
+		height=b;
+	}
 	public double getWidth(){
 		return width;
 	}
-	public void setWidth(double w){
-		width=w;
-	}
 	public double getheight(){
 		return height;
-	}
-	public void setheight(double h){
-		height=h;
 	}
 	public double calculateArea(){
 		return width*height;
