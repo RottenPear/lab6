@@ -23,7 +23,7 @@ public class Rectangle extends Shape{
 	public void drawRectangle(){
 		for(int a=0; a<height; a++){
 			for(int b=0; b<width; b++){
-				System.out.println("-");
+				System.out.println("-----");
 			}
 		}
 	}
