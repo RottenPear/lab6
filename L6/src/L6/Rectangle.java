@@ -19,13 +19,15 @@ public class Rectangle extends Shape{
 	public double calculatePerimeter(){
 		return 2*(width+height);
 	}
+	
 	public void drawRectangle(){
-		for(int a=0;a<height;a++){
-			for(int b=0;b<width;b++){
-				System.out.print("คั");
+		for(int a=0; a<height; a++){
+			for(int b=0; b<width; b++){
+				System.out.println("-");
 			}
 		}
 	}
+	
 	public void printInfo(){
 		System.out.println("Width : "+width);
 		System.out.println("Height : "+height);
